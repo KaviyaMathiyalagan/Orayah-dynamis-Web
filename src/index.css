@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "./styles/site.css";
+
+@theme {
+  --color-forest: #123D32;
+  --color-charcoal: #202824;
+  --color-sage: #d1e3bd;
+  --font-sans: 'Manrope', sans-serif;
+}
+
+@media (max-width: 560px) {
+  .systems-heading h2 span { display: block; }
+}
